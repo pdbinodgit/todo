@@ -1,0 +1,302 @@
+body {
+  background-color: #CDE8E5;
+}
+
+/*
+for button
+*/
+#add_button {
+  background-color: #4D869C;
+  color: #EEF7FF;
+}
+
+/*
+for heading
+*/
+
+.todo_heading {
+  text-align: center;
+  color: #4D869C;
+  font-family: sans-serif;
+  font-size: large;
+  font-style: normal;
+  font-weight: bold;
+
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+}
+
+/*
+for input field
+*/
+.calender{
+  margin-left: 60px;
+  text-align: left;
+  margin-bottom: 10px;
+  
+}
+input[type=date]{
+ width: 15%;
+ padding-left: 12px;
+ padding-right: 12px;
+ padding-top: 7px;
+ padding-bottom: 7px;
+ font-size: 15px;
+ text-align: left;
+ background-color:#EEF7FF ;
+}
+.todo-list {
+  background-color: #EEF7FF;
+  text-align: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  margin-left: 250px;
+  margin-right: 250px;
+
+
+}
+
+#todo_text {
+  width: 350%;
+  height: 60px;
+
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #EEF7FF;
+
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: left;
+}
+
+#add_button {
+  background-color: #4D869C;
+  /* Green */
+  border: none;
+  color: white;
+  margin-top: 1px;
+  padding-left: 35px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-right: 35px;
+
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 400px;
+}
+#add_button:hover {
+font-weight: bolder;
+background-color: #7AB2B2;
+}
+.input-field {
+  display: flex;
+  gap: 115px;
+}
+
+.div1 {
+  margin-left: 60px;
+  text-align: left;
+}
+
+
+#data_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4D869C;
+  color: white;
+}
+  #data_table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  #data_table td, #data_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  #data_table td{
+    text-align: left;
+  
+  }
+  
+
+  #data_table tr:hover {background-color: #CDE8E5;}
+
+
+/* mobile phone  */
+@media only screen and (max-width: 1400px) {
+  .input-field {
+    display: list-item;
+    text-align: left;
+  }
+
+  .todo-list {
+    background-color: #EEF7FF;
+    text-align: left;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+  .div1{
+    margin-left: 10px;
+  }
+
+  #add_button {
+    background-color: #4D869C;
+    /* Green */
+    border: none;
+    color: white;
+    margin-top: 1px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  #todo_text {
+    width: 99%;
+    height: 60px;
+
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #EEF7FF;
+
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: left;
+  }
+  .calender{
+    margin-left: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    
+  }
+  input[type=date]{
+    width: 10%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    text-align: left;
+    background-color:#EEF7FF ;
+   }
+}
+@media only screen and (min-width:1500px) {
+  .input-field {
+    display: list-item;
+    text-align: left;
+  }
+  #add_button {
+    background-color: #4D869C;
+    /* Green */
+    border: none;
+    color: white;
+    margin-top: 8px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 60px;
+  }
+  #todo_text{
+    width: 70%;
+    height: 170px;
+    
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #EEF7FF;
+
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: left;
+  }
+  #add_button{
+    padding-left: 45px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 45px;
+    font-size: 40px;
+  }
+  input[type=date]{
+    width: 15%;
+    height: 100px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 45px;
+    text-align: center;
+    text-align: left;
+    background-color:#EEF7FF ;
+   }
+   #data_table th {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #4D869C;
+    color: white;
+    font-size: 40px;
+  }
+  #data_table td{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 35px;
+  }
+  .todo_heading h1{
+    font-size: 70px;
+  }
+}
+@media only screen and ((min-width:1500px) and (max-width:2900px)){
+ 
+  input[type=date]{
+    width: 20%;
+    height: 80px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 25px;
+    text-align: center;
+    text-align: left;
+    background-color:#EEF7FF ;
+   }
+}
+  
+

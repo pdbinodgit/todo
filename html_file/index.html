@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/css_file/index.css">
+</head>
+<body>
+    <div class="todo_body">
+        <div class="todo_heading">
+            <h1> 
+                Todo List
+            </h1>
+        </div>
+        <div class="todo-list">
+            <div class="calender">
+                <input type="date" name="date" id="date" required>
+            </div>
+        <div class="input-field">
+            <div class="div1">
+            <textarea name="todo" id="todo_text" class="todo-text" required></textarea>
+            </div>
+            <div class="div2">
+            <button id="add_button"  type="submit">Add Note</button>
+            </div>
+        </div>
+        <div id="message"></div>
+
+        <div class="data_list"></div>
+        
+        <table id="data_table" >
+            <thead>
+                <tr>
+                    <th>SN</th>
+                    <th>Date</th>
+                    <th>Desctiption</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="data_list">
+
+            </tbody>
+        </table>
+        </div>
+    </div>
+    <script src="/js_file/index.js"></script>
+</body>
+</html>
